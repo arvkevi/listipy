@@ -1,6 +1,7 @@
 # Listipy
 
-`listipy` is a Visual Studio Code extension that will convert a selection of text to properly-formatted Python list.
+`listipy` is a Visual Studio Code extension that will convert a selection of text to properly-formatted Python list.  
+Install Listipy from the Visual Studio Code [Marketplace](https://marketplace.visualstudio.com/items?itemName=arvkevi.listipy).
 
 ![](images/demo.gif)
 
