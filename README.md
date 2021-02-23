@@ -1,8 +1,12 @@
-# listipy
+# Listipy
 
 `listipy` is a Visual Studio Code extension that will convert a selection of text to properly-formatted Python list.
 
+![](images/demo.gif)
+
 ## Features
+
+`listipy` can handle several types of input.
 
 ### space-separated strings  
 
@@ -15,18 +19,68 @@ Pippen Bird Stockton Laettner Mullin
 After:  
 
 ```python
+["Pippen","Bird","Stockton","Laettner","Mullin"]
+```
 
+### tab-separated strings
+
+Before:  
+
+```python
+Barkley Drexler Malone  Jordan
+```
+
+After:  
+
+```python
+["Barkley","Drexler","Malone","Jordan"]
+```
+
+### mixed tab/space separated strings
+
+Before:  
+
+```python
+Barkley Bird    Drexler Ewing   Mullin
+```
+
+After:  
+
+```python
+["Barkley","Bird","Drexler","Ewing","Mullin"]
 ```
 
 ### comma-separated strings  
-`John Stockton, Michael Jordan, Charles Barkley, Larry Bird, Karl Malone`
 
-*
-``
+Before: 
 
-\!\[feature X\]\(images/feature-x.png\)
+```python
+John Stockton, Michael Jordan, Charles Barkley, Larry Bird, Karl Malone
+```
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+After: 
+
+```python
+["John Stockton"," Michael Jordan"," Charles Barkley"," Larry Bird"," Karl Malone"]
+```
+
+### newline-separated strings
+
+Before:  
+
+```python
+David Robinson
+Scottie Pippen
+Karl Malone
+Magic Johnson
+Michael Jordan
+```
+
+After:  
+
+```python
+["David Robinson","Scottie Pippen","Karl Malone","Magic Johnson","Michael Jordan"]
+```
 
 ## Known Issues
 
