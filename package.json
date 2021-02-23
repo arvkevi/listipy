@@ -2,7 +2,7 @@
   "name": "listipy",
   "displayName": "Listipy",
   "description": "Format strings as Python lists",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "publisher": "arvkevi",
   "icon": "images/icon.png",
   "repository": {
