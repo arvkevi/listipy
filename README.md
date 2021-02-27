@@ -14,13 +14,13 @@ Install Listipy from the Visual Studio Code [Marketplace](https://marketplace.vi
 Before:  
 
 ```python
-Pippen Bird Stockton Laettner Mullin
+Johnson Jordan Barkley Bird Ewing
 ```
 
 After:  
 
 ```python
-["Pippen","Bird","Stockton","Laettner","Mullin"]
+["Johnson", "Jordan", "Barkley", "Bird", "Ewing"]
 ```
 
 ### tab-separated strings
@@ -34,7 +34,7 @@ Barkley Drexler Malone  Jordan
 After:  
 
 ```python
-["Barkley","Drexler","Malone","Jordan"]
+["Johnson", "Jordan", "Barkley", "Bird", "Ewing"]
 ```
 
 ### mixed tab/space separated strings
@@ -48,7 +48,7 @@ Barkley Bird    Drexler Ewing   Mullin
 After:  
 
 ```python
-["Barkley","Bird","Drexler","Ewing","Mullin"]
+["Johnson", "Jordan", "Barkley", "Bird", "Ewing"]
 ```
 
 ### comma-separated strings  
@@ -56,13 +56,27 @@ After:
 Before: 
 
 ```python
-John Stockton, Michael Jordan, Charles Barkley, Larry Bird, Karl Malone
+Magic Johnson, Michael Jordan, Charles Barkley, Larry Bird, Patrick Ewing
 ```
 
 After: 
 
 ```python
-["John Stockton"," Michael Jordan"," Charles Barkley"," Larry Bird"," Karl Malone"]
+["Magic Johnson", "Michael Jordan", "Charles Barkley", "Larry Bird", "Patrick Ewing"]
+```
+
+### comma-separated strings (no spaces) 
+
+Before: 
+
+```python
+Magic Johnson,Michael Jordan,Charles Barkley,Larry Bird,Patrick Ewing
+```
+
+After: 
+
+```python
+["Magic Johnson", "Michael Jordan", "Charles Barkley", "Larry Bird", "Patrick Ewing"]
 ```
 
 ### newline-separated strings
