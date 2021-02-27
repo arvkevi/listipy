@@ -28,7 +28,7 @@ After:
 Before:  
 
 ```python
-Barkley Drexler Malone  Jordan
+Johnson Jordan  Barkley Bird    Ewing
 ```
 
 After:  
@@ -84,17 +84,17 @@ After:
 Before:  
 
 ```python
-David Robinson
-Scottie Pippen
-Karl Malone
 Magic Johnson
 Michael Jordan
+Charles Barkley
+Larry Bird
+Patrick Ewing
 ```
 
 After:  
 
 ```python
-["David Robinson","Scottie Pippen","Karl Malone","Magic Johnson","Michael Jordan"]
+["Magic Johnson", "Michael Jordan", "Charles Barkley", "Larry Bird", "Patrick Ewing"]
 ```
 
 ## Known Issues
