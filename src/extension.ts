@@ -15,14 +15,14 @@ export function activate(context: vscode.ExtensionContext) {
         } else if (text.includes("\t")) {
 			var pythonList = text.split("\t");
         } else if (text.includes(",")) {
-			var pythonList = text.split(",");
+			var pythonList = text.replace(/, /g, ",").split(",");
 		}
 		else {
           pythonList = text.split(/[ ,]+/);
         }
         editor
           .edit((builder) => {
-            builder.replace(selection, JSON.stringify(pythonList));
+            builder.replace(selection, JSON.stringify(pythonList).replace(/,/g, ", "));
           })
           .then((success) => {
             console.log("Listipy worked?:", success);
