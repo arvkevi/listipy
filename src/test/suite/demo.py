@@ -1,7 +1,7 @@
 def test_listipy():
     """Test the Listipy extension"""
     
-    dream_team = 
+    dream_team = "John Stockton, Michael Jordan, Charles Barkley, Larry Bird, Karl Malone"
 
     return dream_team
 
