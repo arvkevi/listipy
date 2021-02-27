@@ -42,7 +42,7 @@ After:
 Before:  
 
 ```python
-Barkley Bird    Drexler Ewing   Mullin
+Johnson Jordan  Barkley Bird Ewing
 ```
 
 After:  
